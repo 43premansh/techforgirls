@@ -1,0 +1,61 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f2ff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #8e44ad;
+}
+
+label {
+  display: block;
+  margin: 15px 0 10px;
+  font-weight: 500;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #9b59b6;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8e44ad;
+}
+
+.hidden {
+  display: none;
+}
+
+#shareCount {
+  text-align: center;
+  margin-top: 10px;
+  color: #27ae60;
+}
